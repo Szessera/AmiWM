@@ -1,0 +1,130 @@
+Screen            "Workbench"
+Module            "Background" "/usr/local/lib/amiwm/wallpaper/cd32.jpg"
+
+FastQuit          Off
+SizeBorder        Right
+ForceMove         Manual
+
+IconPalette       MagicWB
+;IconDir           "/usr/local/lib/amiwm/icons"
+
+Bardetailpen      "#000000"
+Backgroundpen     "#242424"
+Barblockpen       "#ffffff"
+Textpen           "#d08145"
+Filltextpen       "#ffffff"
+Fillpen           "#3b67a2"
+Shadowpen         "#111111"
+Shinepen          "#444444"
+DefaultIcon       "def_tool.info"
+
+CustomIconsOnly   On
+ShortLabelIcons   On
+TitlebarClock     On
+TitleClockFormat  "%Y-%m-%d   %H:%M:%S"
+
+Module            "Keyboard" "Meta<M>:all:rotatescreens"
+
+style { class "xterm" icon "shell.info" }
+style { class "Navigator" icon "browser.info" }
+style { class "netsurf" icon "browser.info" }
+style { class "vimb" icon "browser.info" }
+style { class "hexchat" icon "irc.info" }
+style { class "nedit" icon "texteditor.info" }
+style { class "featherpad" icon "texteditor.info" }
+style { class "kdevelop" icon "idedevel.info" }
+style { class "chromium" icon "browser.info" }
+style { class "konversation" icon "irc.info" }
+style { class "sublime_text" icon "texteditor.info" }
+style { class "gimp" icon "paint.info" }
+style { class "Xephyr" icon "xephyr.info" }
+style { class "simplescreenrecorder" icon "screenrec.info" }
+style { class "ReqASL" icon "reqasl.info" }
+style { class "Viewer" icon "viewer.info" }
+style { class "Workbench" icon "files.info" }
+style { class "mupdf" icon "mupdf.info" }
+style { class "xcalc" icon "xcalc.info" }
+
+ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+
+  ToolItem "File-Explorer"     "worker"
+  ToolItem "Mail"              "claws-mail"
+  ToolItem "Internet Browser"  "falkon"
+
+ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+
+ToolItem "Network"
+  {
+  ToolItem "Network" ""
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  ToolItem "Netsurf"       "netsurf"
+  ToolItem "Chromium"      "chromium"
+  ToolItem "Konversation"  "konversation"
+  ToolItem "Vimb"          "vimb"
+  ToolItem "Hexchat"       "hexchat"
+  ToolItem "Firefox"       "firefox"
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  }
+ToolItem "Multimedia"
+  {
+  ToolItem "Multimedia" ""
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  ToolItem "ardour"        "ardour"
+  ToolItem "Audacious"     "audacious"
+  ToolItem "Audacity"      "audacity"
+  ToolItem "HandBrake"     "handbrake"
+  ToolItem "Video Player"  "mpv"
+  ToolItem "SSrec"         "simplescreenrecorder"
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  }
+ToolItem "Development"
+  {
+  ToolItem "Development" ""
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  ToolItem "Code::Blocks"  "codeblocks"
+  ToolItem "Kdevelop"      "kdevelop"
+  ToolItem "Lazarus"       "lazarus-ide"
+  ToolItem "Xephyr"        "Xephyr -br -ac -reset -no-host-grab -screen 800x600 :1"
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  }
+ToolItem "Emulators"
+  {
+  ToolItem "Emulators" ""
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  ToolItem "Amiberry"      "amiberry"
+  ToolItem "fs-UAE"        "fs-uae"
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  }
+ToolItem "GraphX"
+  {
+  ToolItem "GraphX" ""
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  ToolItem "Blender"       "blender"
+  ToolItem "Gimp"          "gimp"
+  ToolItem "Krita"         "krita"
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  }
+ToolItem "Office"
+  {
+  ToolItem "Office" ""
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  ToolItem "Gnumeric"      "gnumeric"
+  ToolItem "PDF Reader"    "atril"
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  }
+ToolItem                   "System"
+  {
+  ToolItem "System" ""
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  ToolItem "Open"          "reqasl"
+  ToolItem "Setup"         "/usr/local/lib/amiwm/setup"
+  ToolItem "Terminal"      "xterm"
+  ToolItem "Screenshot"    "maim -d 5 ~/Desktop/screen1.png"
+  ToolItem "Nedit"         "nedit"
+  ToolItem "Sublime"       "subl"
+  ToolItem "XCalc"         "xcalc"
+  ToolItem "Slock"         "slock"
+  ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
+  }
+
+ToolItem "~~~~~~~~~~~~~~~~~~~~" ""
